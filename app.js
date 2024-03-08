@@ -132,7 +132,7 @@ function renderProductData(){
       filterDataHTML += `
       <div class="productCard" onclick="ClickProduct(${el.id})">
               <div class="product-image">
-               <img src="meeso/ProductImage/${el.img}"/>
+               <img src="meesho/ProductImage/${el.img}"/>
               </div>
              <h3 class="product-name">${el.name}</h3>
              <p class="product-price">
@@ -148,7 +148,7 @@ function renderProductData(){
       filterDataHTML += `
       <div class="productCard" onclick="ClickProduct(${el.id})">
               <div class="product-image">
-               <img src="meeso/ProductImage/${el.img}"/>
+               <img src="meesho/ProductImage/${el.img}"/>
               </div>
              <h3 class="product-name">${el.name}</h3>
              <p class="product-price">
