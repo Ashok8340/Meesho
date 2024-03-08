@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping Site for Fashion, Electronics, Home & More | Meesho</title>
+  <!-- favicon icon -->
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/33/Meesho_logo.png"/>
+<link rel="stylesheet" href="style.css">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+  <div class="headerLeft">
+    <div class="logo-container">
+      <img src="images/meesho.png" alt="">
+    </div>
+    <!-- search box -->
+    <div class="searchinputcontainer">
+      <div class="searchicon">
+        <img src="images/search.png" alt="">
+      </div>
+      <form action="" id="inputform">
+        <input type="text" placeholder="Try Saree, Kurti or Search by Product Code" class="inputsearch">
+      </form>
+      <div class="inputclosesearch">
+        <i class="fa-solid fa-xmark" id="closesearch"></i>
+      </div>
+      <div class="searchRecentModel">
+        <h3>Recent Seraches</h3>
+        <div class="listofRecent">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="headerRight">
+   <div class="downloadcontainer">
+    <div class="mobileicon">
+      <img src="images/mobile.png"/>
+    </div>
+    <p>Download App</p>
+
+    <div class="downloadHovercontainer">
+        <h3>Download From</h3>
+        <a href="" class="downloadbtn">
+          <img src="https://images.meesho.com/images/pow/playstore-icon-big.png"/>
+        </a>
+        <a href="" class="downloadbtn">
+          <img src="https://images.meesho.com/images/pow/appstore-icon-big.png"/>
+        </a>
+    </div>
+   </div>
+   <div class="becomeSuppliercontainer">
+     <p>Become a Supplier</p>
+   </div>
+   <div class="profileAndCart">
+    <div class="profileContainer">
+      <div class="profileIcon">
+        <img src="images/user.png"/>
+      </div>
+      <p>Profile</p>
+    </div>
+
+    <div class="cartContainer">
+      <div class="cartIcon">
+        <img src="images/cart.png"/>
+      </div>
+      <p>Cart</p>
+    </div>
+   </div>
+  </div>
+  </header>
+  <!-- navigation -->
+  <nav>
+    <ul>
+      <li> Women Ethnic 
+        <div class="subMenu">
+         <div id="womenEthnic" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Women Western
+        <div class="subMenu"> 
+          <div id="womenWestern" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Men
+        <div class="subMenu"> 
+          <div id="men" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Kids
+        <div class="subMenu"> 
+          <div id="kids" class="submitlist"></div>
+        </div>
+        </div>
+      </li>
+      <li>Home & Kitchen
+        <div class="subMenu"> 
+          <div id="homeKitchen" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Beauty & Health
+        <div class="subMenu"> 
+          <div id="beautyHealth" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Jewellery & Accessories
+        <div class="subMenu">
+          <div id="jewelleryAccessories" class="submitlist"></div>
+         </div>
+      </li>
+      <li>Bags & Footwear
+        <div class="subMenu"> 
+          <div id="bagsFootwear" class="submitlist"></div>
+        </div>
+      </li>
+      <li>Electronics
+          <div class="subMenu"> 
+            <div id="electronics" class="submitlist"></div>
+          </div>
+      </li>
+
+    </ul>
+  </nav>
+  <!-- lowest prices -->
+  <div class="lowestPriceContainer">
+    <div class="lowestPrice_text">
+      <h1>Lowest Prices</h1>
+      <h1>Best Quality Shopping</h1>
+      <div class="lowestPriceWhy">
+        <div class="lowestPriceItem">
+          <div class="lowestPriceIcon">
+            <img src="https://images.meesho.com/images/pow/freeDelivery_jamun.svg"/>
+          </div>
+          <p>Free Delivery</p>
+        </div>
+
+        <div class="lowestPriceItem">
+          <div class="lowestPriceIcon">
+            <img src="https://images.meesho.com/images/pow/cod_jamun.svg"/>
+          </div>
+          <p>Cash on Delivery</p>
+        </div>
+
+        <div class="lowestPriceItem">
+          <div class="lowestPriceIcon">
+            <img src="https://images.meesho.com/images/pow/easyReturns_jamun.svg"/>
+          </div>
+          <p>Easy Returns</p>
+        </div>
+      </div>
+
+      <button class="downloadApp_container">
+        <div class="downloadAppIcon">
+          <img src="https://images.meesho.com/images/pow/playstoreSmallIcon.png"/>
+        </div>
+        <p>Download the Meesho App</p>
+      </button>
+
+    </div>
+    <div class="lowestPrice_image">
+      <img src="https://images.meesho.com/images/marketing/1709528579947_512.webp"/>
+    </div>
+  </div>
+
+  <!-- Top Categories to choose from -->
+  <div class="topCategoriesfrom">
+   <div class="topCategoriesHeading">
+    <span class="horizontalLine"></span>
+    <h1>Top Categories to choose from</h1>
+    <span class="horizontalLine"></span>
+   </div>
+   <div class="topCategoriesImage">
+     <img src="https://images.meesho.com/images/marketing/1701835320853_400.webp"/>
+     <img src="https://images.meesho.com/images/marketing/1692191045019_300.webp"/>
+     <img src="https://images.meesho.com/images/marketing/1692191103963_300.webp"/>
+   </div>
+
+   <div class="essntialsContainer">
+     <img src="https://images.meesho.com/images/marketing/1709187916630_200.webp" class="essn-btn"/>
+
+     <div class="essntial_item">
+      <img src="https://images.meesho.com/images/marketing/1690978007288_200.webp"/>
+      <img src="https://images.meesho.com/images/marketing/1709188066644_150.webp"/>
+      </div>
+
+      <div class="essntial_item">
+      <img src="https://images.meesho.com/images/marketing/1690978024110_200.webp"/>
+      <img src="https://images.meesho.com/images/marketing/1709188083340_150.webp"/>
+      </div>
+
+      <div class="essntial_item">
+      <img src="https://images.meesho.com/images/marketing/1690977994925_200.webp"/>
+      <img src="https://images.meesho.com/images/marketing/1709188098316_150.webp"/>
+     </div>
+
+   </div>
+
+   <div class="styleContainer">
+    <img src="https://images.meesho.com/images/marketing/1709187916630_200.webp" class="style-btn"/>
+
+    <div class="style_item">
+     <img src="https://images.meesho.com/images/marketing/1690977773436_200.webp"/>
+     <img src="https://images.meesho.com/images/marketing/1709188221033_150.webp"/>
+     </div>
+
+     <div class="style_item">
+     <img src="https://images.meesho.com/images/marketing/1690977909442_200.webp"/>
+     <img src="https://images.meesho.com/images/marketing/1709188233403_150.webp"/>
+     </div>
+
+     <div class="style_item">
+     <img src="https://images.meesho.com/images/marketing/1690977994925_200.webp"/>
+     <img src="https://images.meesho.com/images/marketing/1709188246437_150.webp"/>
+    </div>
+
+  </div>
+
+   <div class="becomesellar-container">
+    <img src="https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp" class="becomesellar"/>
+    <div class="becomesellar-text">
+    <div class="becomesellar-container-content">
+      <h2>Become a Reseller and</h2>
+      <h1>Start your Online Business
+        with Zero Investment</h1>
+       <div class="becomesellar-appDowload-container">
+        <a href="" class="becomesellar-appDowload">
+          <img src="https://images.meesho.com/images/pow/playstoreIcon_500.webp"/>
+        </a>
+        <a href="" class="becomesellar-appDowload">
+          <img src="https://images.meesho.com/images/pow/appstoreIcon_500.webp"/>
+        </a>
+       </div>
+    </div>
+    </div>
+   </div>
+   <div class="messo-supplier-container">
+     <img src="https://images.meesho.com/images/pow/supplyBannerDesktop.webp"/>
+     <div class="messo-supplier-container-content">
+      <div class="messo-supplier-container-content-content">
+       <h1>Register as a Meesho Supplier</h1>
+        <p>Sell your products to crores of customers at 0% commission</p>
+        <div class="meesho-supplier-benifit-container">
+          <div class="meesho-supplier-benifit">
+           <img class="messo-benifit-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg=="/>
+           <p>Grow your business 10x</p>
+          </div>
+          <div class="meesho-supplier-benifit">
+            <img class="messo-benifit-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg=="/>
+            <p>Enjoy 100% Profit</p>
+          </div>
+          <div class="meesho-supplier-benifit">
+            <img class="messo-benifit-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg=="/>
+            <p>Sell all over India</p>
+          </div>
+        </div>
+        <a href="#" class="signup-btn">Sign UP Now</a>
+      </div>
+     </div>
+   </div>
+  </div>
+  <!-- Products For You -->
+  <div class="product-container-you">
+    <h1>Products For You</h1>
+  <div class="product-category-you-content">
+      <aside class="product-category-you-aside">
+        <h3>Category</h3>
+        <div class="search-category-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="search"/>
+        </div>
+        <div class="display-category-list">
+          <label for="bluetooth">
+            <input type="checkbox" id="bluetooth"/>
+            <span>bluetooth Headset</span>
+          </label>
+          <label for="chains">
+            <input type="checkbox" id="chains"/>
+            <span>Men Chains</span>
+          </label>
+
+          <label for="kurtas">
+            <input type="checkbox" id="kurtas"/>
+            <span>Kurtas</span>
+          </label>
+
+          <label for="accessories">
+            <input type="checkbox" id="accessories"/>
+            <span>Mobile Accessories</span>
+          </label>
+
+          <label for="sarees">
+            <input type="checkbox" id="sarees" />
+            <span>sarees</span>
+          </label>
+
+          <label for="watch">
+            <input type="checkbox" id="watch"/>
+            <span>watch</span>
+          </label>
+        </div>
+      </aside> 
+      <main class="product-category-display" id="product-category-displayId">
+    <!-- ramder data -->
+      </main>
+  </div> 
+  </div>
+<!-- footer -->
+ <footer>
+  <div class="row">
+    <div class="col">
+      <h2>Shop Non-Stop on Meesho</h2>
+      <p>Trusted by more than 1 Crore Indians
+        Cash on Delivery | Free Delivery</p>
+      <img src="https://images.meesho.com/images/pow/playstore-icon-big_400.webp" class="logo"/>
+      <img src="https://images.meesho.com/images/pow/appstore-icon-big_400.webp" class="logo"/>
+    </div>
+    <div class="col">
+      <h3>Careers</h3>
+      <p>Become a supplier</p>
+      <p>Hall of Fame</p>
+      <p>Sitemap</p>
+    </div>
+    <div class="col">
+      <h3>Legal and Policies</h3>
+      <p>Meesho Tech Blog</p>
+      <p>Notices and Returns</p>
+    </div>
+    <div class="col">
+      <h3>Contact Us</h3>
+      Fashnear Technologies Private Limited,
+      CIN: U74900KA2015PTC082263,
+      3rd Floor, Wing-E, Helios Business Park,Kadubeesanahalli Village, Varthur Hobli, Outer Ring Road Bellandur, Bangalore, Bangalore South, Karnataka, India, 560103</p>
+       <p class="Email-id">E-mail address: query@meesho.com</p>  
+    </div>
+  </div>
+  <div class="contect-icon">
+    <div class="col">
+      <h2>Reach out to us</h2>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>  
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </div>
+  <hr>
+  <div class="copy-right">
+    <p>© 2015-2024 Meesho.com</p>
+  </div>
+ </footer>
+  
+  <script src="app.js" type="module"></script>
+</body>
+</html>
