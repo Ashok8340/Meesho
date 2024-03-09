@@ -94,7 +94,7 @@ renderSubMenu("electronics",Electronics)
 
 /*********************product section***********************/ 
 
-import ProductData from './meeso/data.js'
+import ProductData from './meesho/data.js'
 
 const category = [...new Set (ProductData.map(el=>el.category))]
 console.log( category);
